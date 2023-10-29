@@ -19,7 +19,7 @@ type ImageConfig struct {
 
 func shaGetter() {
 	// Open the configuration file.
-
+	// change this to take variable input so cobra command can send file
 	fmt.Print("Enter the path to the YAML file: ")
 	var filePath string
 	fmt.Scanln(&filePath)

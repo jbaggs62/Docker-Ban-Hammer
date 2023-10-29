@@ -15,7 +15,8 @@ var compareShaCmd = &cobra.Command{
 	Short: "verify your docker images",
 	Args:  cobra.ExactArgs(2),
 	Run: func(cmd *cobra.Command, args []string) {
-		var yourDockerImage string
+		var yourDockerImage string = args[0]
+		var configFilePath string = args[1]
 		fmt.Println("compareSha called")
 
 	},
