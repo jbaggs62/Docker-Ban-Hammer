@@ -1,5 +1,5 @@
 [package]
-name = "Docker-Ban-Hammer"
+name = "docker_ban_hammer"
 version = "0.1.0"
 edition = "2021"
 
